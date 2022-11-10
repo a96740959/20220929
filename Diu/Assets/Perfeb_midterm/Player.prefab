@@ -45,7 +45,9 @@ GameObject:
   - component: {fileID: 3499032057859943378}
   - component: {fileID: 2946481071545097326}
   - component: {fileID: 35025578}
-  m_Layer: 0
+  - component: {fileID: 35025579}
+  - component: {fileID: 35025580}
+  m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,3 +197,31 @@ MonoBehaviour:
   PictureMiddle: {fileID: 0}
   PictureDown: {fileID: 0}
   Spr: {fileID: 8294679914453714768}
+--- !u!114 &35025579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8294679914453714770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3e187f19aed57d42a87da793994ac93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nametarget: Enemy
+  prefebExplosion: {fileID: 3467832700368513243, guid: 13958df4e97f0734793d2efb6ef49846, type: 3}
+--- !u!114 &35025580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8294679914453714770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3ae0fa254ca9554d9029c5984ca1010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrefebBullet: {fileID: 3493487744429461180, guid: c6b0a060c863db74d973c01305cb9113, type: 3}
+  PointSpawn: {fileID: 1187269081}
