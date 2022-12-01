@@ -12,10 +12,14 @@ namespace Alex
         private GameObject PrefebBullet;
         [SerializeField, Header("BulletSpawnPoint")]
         private Transform PointSpawn;
+        [SerializeField, Header("SoundFx")]
+        private AudioClip soundFire;
 
         protected void SpawnBullet()
         {
             Instantiate(PrefebBullet, PointSpawn.position, PointSpawn.rotation);
+
+            SoundManager.instance.PlaySound(soundFire, new Vector2(0.7f, 1.2f));
         }
     }
 }

@@ -12,7 +12,16 @@ namespace Alex
 
         private void Awake()
         {
+            
+        }
+        private void OnBecameVisible()
+        {
             InvokeRepeating("SpawnBullet", 0, interval);
+        }
+
+        private void OnBecameInvisible()
+        {
+            Destroy(gameObject);
         }
     }
 
