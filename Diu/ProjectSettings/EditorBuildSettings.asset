@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/AlexKuanhandsomeBoiii.unity
+    guid: 902907b8afe06cb49a9448846e8bc2c5
+  - enabled: 0
     path: Assets/Scenes/midterm.unity
     guid: c61c94c293a80c84cb43826dea37aeab
   m_configObjects: {}
